@@ -14,7 +14,7 @@ namespace Media {
 	class Tape;
 } /* namespace Media */
 
-class Tape {
+class Tape: public Media {
 public:
 	Tape();
 	std::string read();

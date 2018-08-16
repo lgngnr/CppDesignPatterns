@@ -14,7 +14,7 @@ namespace Media {
 	class CD;
 } /* namespace Media */
 
-class CD {
+class CD: public Media {
 public:
 	CD();
 	std::string read();
