@@ -5,25 +5,25 @@
  *      Author: luigi
  */
 
-#ifndef PRODUCT_H_
-#define PRODUCT_H_
+#ifndef RECORDER_H_
+#define RECORDER_H_
 
 #include <string>
 #include "Media.h"
 
 namespace Product{
-	class Product;
+	class Recorder;
 }
 
-class Product{
+class Recorder{
 public:
-	Product();
+	Recorder();
 	void insert(Media::Media*);
 	virtual void record(std::string) = 0;
 	virtual void play() = 0;
-	virtual ~Product();
+	virtual ~Recorder();
 };
 
 
 
-#endif /* PRODUCT_H_ */
+#endif /* RECORDER_H_ */
